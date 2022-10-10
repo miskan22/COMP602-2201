@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+<html lang="en">
+<meta charset="UTF-8">
+</head>
+<body>
+<!--text input-->
+	<h2>Text Input</h2>
+	<form>
+		<label for="fname">First Name:</label><br>
+		<input type="text" id="fname" name="fname" value=""><br>
+		<label for="lname">Last Name:</label><br>
+		<input type="text" id="lname" name="lname" value="">
+	</form>
+<!--number input-->
+	<h2>Number Input</h2>
+	<form>
+		<label for="quantity">Quantity (between 1 and 5):</label>
+		<input type="number" id="quantity" name="quantity" min="1" max="5">
+		<input type="submit" value="Submit">
+	</form>
+<!--email input-->
+	<h2>Email Input</h2>
+	<form>
+		<label for="email">Enter your email:</label>
+		<input type="email" id="email" name="email">
+		<input type="submit" value="Submit">
+	</form>
+<!--password input-->
+	<h2>Password Input</h2>
+	<form>
+		<label for="id">ID:</label><br>
+		<input type="text" id="id" name="id"><br>
+		<label for="password">Password:</label><br>
+		<input type="password" id="password" name="password"><br><br>
+		<input type="submit" value="Submit">
+	</form>
+<!--textarea-->
+	<h2>Textarea</h2>
+	<form>
+		<p><label for="web">Web Development:</p>
+		<textarea id="web" name="web" rows="4" cols="50">
+		</textarea>
+		<br>
+		<input type="submit" value="Submit">
+	</form>
+<!--checkbox-->
+	<h2>Checkbox</h2>
+	<form>
+		<input type="checkbox" id="fruit1" name="fruit1" value="Apple">
+		<label for="fruit1"> I have an apple</label><br>
+		<input type="checkbox" id="fruit2" name="fruit2" value="Banana">
+		<label for="fruit2"> I have a banana</label><br>
+		<input type="checkbox" id="fruit3" name="fruit3" value="Grape">
+		<label for="fruit3"> I have a grape</label><br>
+		<input type="submit" value="Submit">
+	</form>
+<!--radio button-->
+	<h2>Radio Button</h2>
+	<form>
+		<input type="radio" id="guitar" name="instrument" value="Guitar">
+		<label for="guitar">Guitar</label><br>
+		<input type="radio" id="violin" name="instrument" value="Violin">
+		<label for="violin">Violin</label><br>
+		<input type="radio" id="piano" name="instrument" value="Piano">
+		<label for="piano">Piano</label><br>
+	</form>
+<!--dropdown listbox-->
+	<h2>Dropdown Listbox</h2>
+	<form>
+		<label for="food">Choose a food:</label>
+		<select name="food" id="food">
+			<optgroup label="European Food">
+				<option value="Crossoaint">Crossoaint</option>
+				<option value="Bacon">Bacon</option>
+			</optgroup>
+			<optgroup label="Asian Food">
+				<option value="Rice">Rice</option>
+				<option value="Noodle">Noodle</option>
+			</optgroup>
+		</select>
+		<br><br>
+		<input type="submit" value="Submit">
+	</form>
+<!--reset button and submit button-->
+	<h2>Reset Button and Submit Button</h2>
+	<form>
+		<label for="fname">First Name:</label><br>
+		<input type="text" id="fname" name="fname" value=""><br>
+		<label for="lname">Last Name:</label><br>
+		<input type="text" id="lname" name="lname" value=""><br><br>
+		<input type="submit" value="Submit">
+		<input type="reset">
+	</form>
+</body>
+</html>

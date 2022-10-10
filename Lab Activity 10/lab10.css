@@ -1,0 +1,33 @@
+li {
+	list-style-type: none;
+	font-size: 16pt;
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+}
+
+.body1 {
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 400px;
+	background : #ffd66c;
+	border: 1px soild silver;
+	color: black;
+	font-size: 20pt;
+}
+
+.droplist {
+	font-size: 20pt;
+	margin-left: 0px;
+}
+
+input {
+	font-size: 20pt;
+}
+
+.submit {
+	font-size: 12pt;
+	padding-bottom: 10px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+	background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li{
+	float: right;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;	
+}
+
+li a:hover:not(.active) {
+	background-color: #111;
+}
+
+.active{
+	background-color: green;
+}
+h1{
+	color: white;
+}
+.photo{
+	filter: grayscale(100%);
+}
+h2, p{
+	color: white;
+}
+.body1 {
+	float: left;
+    text-align: left;
+}
+.body2 {
+	float: center;
+    text-align: left;
+}
+</style>
+<body>
+	<ul> 
+		<li><a class="active" href="#home">Home</a></li>
+		<li><a href="#portfolio">Portfolio</a></li>
+		<li><a href="#aboutme">About me</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
+<h1>Photo Journey</h1>
+<img class="photo" src="img.jpg" width="1500" height="300"/>
+<table style="width:100%">
+	<tr>
+		<th class="body1"><h2>View my portfolio</h2></th>
+		<th class="body2"><h2>View my Portolio</h2></th>
+	</tr>
+	<tr>
+		<td>temp message</td>
+		<td>temp message</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+		<form>
+			<input type="button" value="Read More"/>
+		</form>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
+

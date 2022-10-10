@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+<html lang="en">
+<meta charset="UTF-8">
+<link rel='stylesheet' href='lab10.css' type='text/css' />
+<title>Lab Activity 10</title>
+</head>
+
+<body>
+<center><h2>Input Check - Personal Information</h2></center>
+<div class="body1">
+	<form name="form" action="#" onsubmit="inputCheck()">
+		<ul>
+			<li><label for="droplist">Title</label></li>
+			<select id="droplist" class="droplist"></li>
+			<li><option value="ms">Miss</option></li>
+			<li><option value="mr">Mr</option></li>
+			<li><option value="mrs">Mrs</option></li>
+			<li><option value="dr">Dr</option></li>
+			</select>
+			<li>First Name<input type="text" name="firstname"/></li>
+			<li>Last Name<input type="text" name="lastname"/></li>
+			<li>Address<input type="text" name="address"/></li>
+			<li>Phone<input type="tel" name="phone"/></li>
+			<li>Email<input type="email" name="email"/></li>
+			<li><input type="submit" name="submit" value="Submit" /></li>
+		</ul>
+	</form>
+</div>
+<script src="lab10.js"></script>
+</body>
+</html>

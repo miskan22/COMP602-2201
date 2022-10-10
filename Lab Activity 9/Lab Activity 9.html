@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lab Activity 9</title>
+</head>
+<body>	
+<h1 id="sum"></h1>
+<h1 id="heading"></h1>
+<h1 id="welcome"></h1>
+<h1 id="misun"></h1>
+<script>
+/*1. 
+var stuName = "Misun";
+
+2. var num = 60;
+*/
+
+//3. 4.
+var x = 10;
+var y = 15;
+var sum = x + y;
+document.getElementById("sum").innerHTML = x + y;
+
+/*5.
+a) var firstName = "Misun";
+b) var lastName = "Kang";
+c) var groupName = "Group 4";
+*/
+
+//6. 
+//let length = 16 //number
+//let LastName= "Tan"; //string
+//const x = {
+//	fistName: "Katrina", //string
+//	lastName: "Tan" //string
+//}; //object
+
+//7. 8.
+function testFunction() {
+	return "Hello World";
+	alert(testFunction);
+}
+document.getElementById("heading").innerHTML = testFunction();
+
+//Challenge 1. 2.
+const welcome = {
+	Greating: "Hi from COMP602 tutor",
+	Name: "Misun"
+}
+alert(welcome.Greating);
+
+//Challenge 3.
+const misun = {
+	Name: "Misun",
+	Group: "Group 4"
+}
+alert(misun.Name + 'comes from' + misun.Group);
+
+</script>
+
+<!--9.-->
+<button onmouseover="alert('Hello World')">Click here.</button>
+<!--Challenge 4.-->
+<div onmouseover="this.style.backgroundColor='red'">MisunDiv.</div>
+<!--10.
+let txt = "Hello World";
+let x = txt.length;
+alert(x);
+-->
+</body>
+</html>

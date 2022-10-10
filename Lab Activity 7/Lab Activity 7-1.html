@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+<html lang="en">
+<meta charset="UTF-8">
+<style>
+table{
+	border-collapse: collapse;
+	border: 0.5px solid black;
+	width: 30%	
+}
+
+th{
+	border-collapse: collapse;
+	border: 0.5px solid black;
+}
+
+td{
+	border-collapse: collapse;
+	border: 0.5px solid black;
+}
+
+.tr1{
+	text-align: center;
+	border-collapse: collapse;
+	background-color: black;
+	border: 0.5px solid black;
+	color: white;
+}
+
+.tr2{
+	text-align: right;
+	border-collapse: collapse;
+	border: 0.5px solid black;
+	background-color: white;
+}
+
+</style>
+</head>
+<body>
+<h1>Your shopping cart</h1>
+	<table>
+		<tr class="tr1">
+			<th>Item</th>
+			<th>Quantity</th>
+			<th>Unit price</th>
+			<th>Cost</th>
+		</tr>
+		<tr class="tr2">
+			<th>DVDs (box of 10)</th>
+			<th>
+				<form>
+					<label for="quantity"></label>
+					<input type="number" id="quantity" name="quantity" min="1" max="5">
+				</form>
+			</th>
+			<th>12.99</th>
+			<th>12.99</th>
+		</tr>
+		<tr class="tr2">
+			<th>Screen wipes (box of 5)</th>
+			<th>
+				<form>
+					<label for="quantity"></label>
+					<input type="number" id="quantity" name="quantity" min="1" max="5">
+				</form>
+			</th>
+			<th>5.99</th>
+			<th>5.99</th>
+		</tr>
+		<tr class="tr2">
+			<th></th>
+			<th></th>
+			<th>Total</th>
+			<th>18.98</th>
+		</tr>
+	</table>
+	<form>
+		<input type="button" value="Update"/>
+	</form>
+</body>
+</html>
